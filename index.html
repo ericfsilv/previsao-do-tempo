@@ -11,16 +11,22 @@
     <title>Previsão do Tempo</title>
 </head>
 <body>
-    <div>
-        <input placeholder="Digite o nome da cidade">
-        <button>Buscar</button>
+    <div class="part-maior">
+        <input class="input-cid" placeholder="Digite o nome da cidade">
 
-        <h2>Tempo em São Paulo</h2>
-        <p>21°C</p>
+        <button class="botao-buscar">
+            <img class="img-buscar" src="https://www.svgrepo.com/show/488200/find.svg" alt="buscar">
+        </button>
 
-        <img src="https://openweathermap.org/img/wn/04n.png" alt="inc-info-temp">
+        <div class="part-media">
+            <h2 class="cidade">Tempo em São Paulo</h2>
+            <p class="temp">21°C</p>
 
-        <p>Umidade</p>
+            <div class="part-menor">
+                <img class="img-temp" src="https://openweathermap.org/img/wn/04n.png" alt="inc-info-temp">
+                <p class="umidade">Umidade</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
