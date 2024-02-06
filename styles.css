@@ -56,7 +56,7 @@ body {
 .part-menor{
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .img-buscar{
@@ -71,17 +71,17 @@ h2{
 .temp{
     font-size: 20px;
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
-.cidade{
+.descricao{
     color: #ffffff;
-    margin-left: 20px;
-    text-transform: capitalize;
+    margin-left: 15px;
+    text-transform: capitalize
 }
 
 .umidade{
     color: #ffffff;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
